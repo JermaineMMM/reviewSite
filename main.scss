@@ -1,0 +1,52 @@
+
+body{
+	color: black;
+	font-size: 30px;
+	img{
+		height: 600px;
+		width: 400px;
+	}
+	#welcome_text{
+		align-items: center;
+		justify-content: center;
+
+		#iF_main{
+			flex-basis: 40%;
+		}		
+
+		#pF_main{
+			font-size: 30px;
+			padding-left: 20px;
+		}
+	}
+	.fa{
+		padding: 10px;
+		font-size: 20px;
+		width: 30px;
+		border: none;
+		border-radius: 30px;
+		text-align: center;
+		text-decoration: none;
+		margin: 5px 2px;
+		color: white;
+	}
+	.fa:hover{
+		opacity: 0.7;
+	}
+	.fa-facebook{
+		background-color: #3B5998;
+	}
+	.fa-youtube{
+		background-color: #bb0000;
+	}
+	.fa-instagram{
+        background-color: rgb(236, 133, 150);
+	}
+	.fa-twitter{
+		background-color: #55ACEE;
+	}
+	.fa-snapchat{
+		background-color: #FFFC00;
+	}
+
+}
