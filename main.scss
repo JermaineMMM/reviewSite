@@ -1,25 +1,35 @@
 
 body{
-	color: black;
+	color: rgb(202, 197, 197);
+	align-items: center;
+	justify-content: right;
+	text-align: center;
 	font-size: 30px;
-	img{
-		height: 600px;
-		width: 400px;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	#search-place{
+
 	}
-	#welcome_text{
-		align-items: center;
-		justify-content: center;
-
-		#iF_main{
-			flex-basis: 40%;
-		}		
-
-		#pF_main{
-			font-size: 30px;
-			padding-left: 20px;
-		}
+	img{
+		width: 200px;
+		height: 200px;
+		object-fit: cover;
+		border: none;
+		border-radius: 20px;
+		float: left;
+		margin: 0;
+		transition: transform 0.3s ease-in-out;
+	}
+	p{
+		float: center;
+		margin: 5px;
+	}
+	img:hover{
+		transform: scale(1.1);
+		opacity: 0.8;
 	}
 	.fa{
+		bottom: 0;
 		padding: 10px;
 		font-size: 20px;
 		width: 30px;
@@ -29,9 +39,11 @@ body{
 		text-decoration: none;
 		margin: 5px 2px;
 		color: white;
+		transition: transform 0.3s ease-in-out;
 	}
 	.fa:hover{
 		opacity: 0.7;
+		transform: scale(1.2);
 	}
 	.fa-facebook{
 		background-color: #3B5998;
@@ -47,6 +59,22 @@ body{
 	}
 	.fa-snapchat{
 		background-color: #FFFC00;
+	}
+	button{
+		align-items: center;
+		border: none;
+		border-radius: 20px;
+		background-color: #3B5998;
+		color: white;
+		font-weight: bold;
+		width: 70px;
+		height: 70px;
+		cursor: pointer;
+		transition: transform 0.3s ease-in-out;
+		flex-direction: row;
+	}
+	button:hover{
+		transform: scale(1.2);
 	}
 
 }
